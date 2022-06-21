@@ -1,11 +1,19 @@
 http://localhost:5000/graphql
 
+# Course
 https://youtu.be/BcLNfwF04Kw
+
+# Server
+npm i express express-graphql graphql mongoose cors colors
+npm i -D nodemon dotenv
 
 npm run dev
 
-npm i express express-graphql graphql mongoose cors colors
-npm i -D nodemon dotenv
+# Client
+npx create-react-app client
+npm i @apollo/client graphql react-router-dom react-icons
+
+npm start
 
 # Technologies
 ## Front-end
